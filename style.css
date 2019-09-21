@@ -97,12 +97,17 @@ ul {
 .contact-image{
     width: 50px;
 
+
 }
 
 .contact {
     text-align: center;
     word-spacing: 20px;
     padding-top: 20px;
-
+    display: box;
+box-orient: horizontal;
+box-pack: center;
+box-align: center;
 }
 
+  
