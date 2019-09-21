@@ -57,7 +57,6 @@ ul {
 .introduction{
     text-align: center;
     font-family: 'Barlow', sans-serif;
-
     font-size: 50px;
     font-weight: bold;
     color: white;
@@ -90,7 +89,7 @@ ul {
  {
     text-align: center;
     font-size: 20px;
-    font-weight: bold;
+    font-weight: lighter;
     font-family: 'Barlow', sans-serif;
     color: white;
 }
