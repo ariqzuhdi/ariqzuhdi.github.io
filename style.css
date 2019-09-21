@@ -21,17 +21,23 @@ ul {
 }
 
 .nav a:hover{
+    color: #58B19F;
     background-color: rgba(255, 255, 255, 0.3);
+}
+
+.nav {
+    text-align: right;
+    word-spacing: 20px;
+    font-size: 1.1em;
+    font-weight: lighter;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
 }
 
 .header {
     font-family: "Comic Sans MS", cursive, sans-serif;
     font-size: 25px;
     font-weight: bold;
-    
     background-color:#1e272e;
-    padding-top: 20px;
-    padding-bottom: 20px;
     width: 100%;
 }
 
@@ -55,9 +61,8 @@ ul {
 
 .introduction{
     text-align: center;
-    padding-bottom: 75px;
     font-family: 'Gill Sans', 'Gill Sans MT', "Calibri", 'Trebuchet MS', sans-serif;
-    font-size: 40px;
+    font-size: 50px;
     font-weight: bold;
     color: white;
 }
@@ -65,14 +70,23 @@ ul {
 .me{
     background-image: url("/picture/meh.ro12348_3.jpg");
     width: 100%;
+    height: 100%;
     background-blend-mode: multiply;
-    background-size: cover;
+   padding-bottom: 242px;
     background-color: rgba(0, 0, 0, 0.6);
-    padding-bottom: 238px;
+   height: 100%;
     display: inline-block;
+    background-attachment: local;
+    background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
  .about-me{
      text-align: center;
-     font
+     font-size: 20px;
+     font-weight: bold;
+     font-family: 'Gill Sans', 'Gill Sans MT', "Calibri", 'Trebuchet MS', sans-serif;
+    color: white;
+
  }
 
