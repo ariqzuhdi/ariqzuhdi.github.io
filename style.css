@@ -24,6 +24,8 @@ ul {
 .nav a:hover{
     color: #58B19F;
     background-color: rgba(255, 255, 255, 0.3);
+    transition: 0.7s;
+    trans
 }
 
 .nav {
