@@ -8,12 +8,12 @@ ul {
     margin: 0;
 }
 
-.nav li{
+.contact-list li{
     display: inline;
     
 }
 
-.nav a{
+.contact-list a{
     text-decoration: none;
     color: whitesmoke;
     padding: 1em;
@@ -21,13 +21,13 @@ ul {
     
 }
 
-.nav a:hover{
+.contact-list a:hover{
     color: #58B19F;
     background-color: rgba(255, 255, 255, 0.3);
     transition: 0.7s;
 }
 
-.nav {
+.contact-list {
     text-align: center;
     padding-right: 40px;
     word-spacing: 0 auto;
