@@ -111,6 +111,9 @@ ul {
 
 #tinker-button:link {
   text-decoration: none;
+}
+
+#tinker-button {
   color: aqua;
 }
 
