@@ -3,9 +3,16 @@ body {
   margin: 0;
   padding: 0;
   height: 100%;
+  background-image: url("/assets/meh.ro12348_3.jpg");
+  background-blend-mode: multiply;
+  background-color: rgba(0, 0, 0, 0.6);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-ul {
+.contact-list ul {
   margin: 0;
 }
 
@@ -37,10 +44,11 @@ ul {
 
 .header {
   font-family: "Barlow", sans-serif;
-  font-size: 25px;
+  font-size: 20px;
   font-weight: bold;
   background-color: #1e272e;
   width: 100%;
+  position: fixed;
 }
 
 .picture {
@@ -53,7 +61,7 @@ ul {
   margin-right: auto;
 }
 
-.introduction {
+#introduction {
   text-align: center;
   font-family: "Barlow", sans-serif;
   font-size: 50px;
@@ -61,28 +69,28 @@ ul {
   color: white;
 }
 
+#project-words {
+  text-align: center;
+  font-family: "Barlow", sans-serif;
+  font-size: 20px;
+  color: white;
+}
+
 .me {
-  background-image: url("/assets/meh.ro12348_3.jpg");
   width: 100%;
   height: 100%;
-  background-blend-mode: multiply;
 
-  background-color: rgba(0, 0, 0, 0.6);
   height: 100%;
   padding-top: 200px;
-  background-attachment: local;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
 }
-.about-me {
+#about-me {
   text-align: center;
   font-size: 30px;
   font-weight: bold;
   font-family: "Barlow", sans-serif;
   color: white;
 }
-.about-me-ask {
+#about-me-ask {
   text-align: center;
   font-size: 20px;
   font-weight: lighter;
@@ -90,7 +98,7 @@ ul {
   color: white;
 }
 
-.about-me-intro {
+#about-me-intro {
   text-align: center;
   font-size: 20px;
   font-weight: lighter;
@@ -105,6 +113,7 @@ ul {
 .contact {
   justify-content: center;
   word-spacing: 20px;
+  padding-bottom: 30px;
   padding-top: 20px;
   text-align: center;
 }
@@ -120,4 +129,21 @@ ul {
 #tinker-button:hover {
   text-decoration: underline;
   color: aqua;
+}
+
+#project-ulist {
+  /* margin: auto; */
+  text-align: center;
+}
+
+#project-ulist li {
+  display: inline;
+}
+
+#project-ulist li a img {
+  margin-left: auto;
+  margin-right: 2em;
+  padding: 0 auto;
+  width: 25%;
+  height: 25%;
 }
