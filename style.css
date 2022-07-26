@@ -1,149 +1,154 @@
-html,
-body {
+* {
   margin: 0;
   padding: 0;
-  height: 100%;
-  background-image: url("/assets/meh.ro12348_3.jpg");
-  background-blend-mode: multiply;
-  background-color: rgba(0, 0, 0, 0.6);
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+  font-family: "poppins", sans-serif;
+  box-sizing: border-box;
 }
 
-.contact-list ul {
-  margin: 0;
-}
-
-.contact-list li {
-  display: inline;
-}
-
-.contact-list a {
-  text-decoration: none;
-  color: whitesmoke;
-  padding: 1em;
-  display: inline-block;
-}
-
-.contact-list a:hover {
-  color: #58b19f;
-  background-color: rgba(255, 255, 255, 0.3);
-  transition: 0.7s;
-}
-
-.contact-list {
-  text-align: center;
-  padding-right: 40px;
-  word-spacing: 0 auto;
-  font-size: 1.1em;
-  font-weight: lighter;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
-}
-
-.header {
-  font-family: "Barlow", sans-serif;
-  font-size: 20px;
-  font-weight: bold;
-  background-color: #1e272e;
+header,
+.recent-project,
+#footer-top,
+#footer-bottom {
   width: 100%;
-  position: fixed;
+  padding: 5%;
 }
 
-.picture {
-  border-radius: 50%;
-  width: 300px;
-  height: 300px;
+header nav {
   display: flex;
-  padding: 0 auto;
-  margin-left: auto;
-  margin-right: auto;
+  align-items: center;
+  justify-content: space-between;
 }
 
-#introduction {
-  text-align: center;
-  font-family: "Barlow", sans-serif;
-  font-size: 50px;
+.nav-links li {
+  display: inline-block;
+  padding: 5px;
+}
+
+#retard {
   font-weight: bold;
-  color: white;
-}
-
-#project-words {
-  text-align: center;
-  font-family: "Barlow", sans-serif;
-  font-size: 20px;
-  color: white;
-}
-
-.me {
-  width: 100%;
-  height: 100%;
-
-  height: 100%;
-  padding-top: 200px;
-}
-#about-me {
-  text-align: center;
-  font-size: 30px;
-  font-weight: bold;
-  font-family: "Barlow", sans-serif;
-  color: white;
-}
-#about-me-ask {
-  text-align: center;
-  font-size: 20px;
-  font-weight: lighter;
-  font-family: "Barlow", sans-serif;
-  color: white;
-}
-
-#about-me-intro {
-  text-align: center;
-  font-size: 20px;
-  font-weight: lighter;
-  font-family: "Barlow", sans-serif;
-  color: white;
-}
-
-.contact-image {
-  width: 50px;
-}
-
-.contact {
-  justify-content: center;
-  word-spacing: 20px;
-  padding-bottom: 30px;
-  padding-top: 20px;
-  text-align: center;
-}
-
-#tinker-button:link {
   text-decoration: none;
+  color: black;
+  font-size: 30px;
 }
 
-#tinker-button {
-  color: aqua;
+#projects {
+  border-bottom: 1px solid currentColor;
 }
 
-#tinker-button:hover {
-  text-decoration: underline;
-  color: aqua;
+.nav-links li a {
+  text-decoration: none;
+  color: black;
+  font-size: 22px;
+  font-weight: normal;
 }
 
-#project-ulist {
-  /* margin: auto; */
+.title {
+  margin-right: 20%;
+  padding-top: 5%;
+  /* padding-bottom: 25px; */
+  font-size: 60px;
+  font-weight: lighter;
+}
+
+.head-img {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+}
+
+.head-img img {
+  width: 100%;
+  height: auto;
+  margin: -25% 0 0 0;
+}
+
+#recent-text {
+  margin-right: 50%;
+  padding-top: 2%;
+  line-height: 200%;
+}
+
+.projects {
+  padding-bottom: 5%;
+}
+
+.projects .row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 2.5%;
+  padding-bottom: 2.5%;
+}
+
+.projects img {
+  width: 39%;
+  margin-left: 2.5%;
+  margin-right: 2.5%;
+}
+
+.projects ul {
   text-align: center;
 }
 
-#project-ulist li {
+.projects li {
   display: inline;
 }
 
-#project-ulist li a img {
-  margin-left: auto;
-  margin-right: 2em;
-  padding: 0 auto;
-  width: 25%;
-  height: 25%;
+.projects img:hover {
+  opacity: 0.3;
+  transition: 0.4s;
+}
+
+.projects img:not(:hover) {
+  transition: 0.4s;
+}
+
+#footer-text {
+  margin-right: 50%;
+  padding-top: 2%;
+  padding-bottom: 4%;
+  line-height: 200%;
+}
+
+#footer-top {
+  background-color: #0d0c12;
+  color: #fefefe;
+}
+
+#footer-bottom p {
+  /* margin-right: 50%; */
+  /* padding-top: 2%; */
+  /* line-height: 10%; */
+  padding-bottom: 2%;
+}
+
+footer #footer-top a {
+  text-decoration: none;
+  color: #000;
+  background-color: #fefefe;
+  padding: 1em 2em;
+}
+
+footer a:hover {
+  opacity: 0.5;
+  transition: 0.2s;
+}
+
+footer a:not(:hover) {
+  transition: 0.2s;
+}
+
+#footer-bottom a {
+  text-decoration: none;
+  color: #000;
+}
+
+#footer-bottom h1 {
+  padding-bottom: 4%;
+}
+
+#footer-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
