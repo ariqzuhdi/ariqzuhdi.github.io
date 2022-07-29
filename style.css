@@ -3,14 +3,19 @@
   padding: 0;
   font-family: "Nanum Gothic", sans-serif;
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 header,
-.recent-project,
+#recent-project,
 #footer-top,
-#footer-bottom {
+#contact {
   width: 100%;
   padding: 5%;
+}
+
+#recent-project {
+  text-align: center;
 }
 
 header nav {
@@ -28,7 +33,7 @@ header nav {
   font-weight: bold;
   text-decoration: none;
   color: black;
-  font-size: 30px;
+  font-size: 150%;
 }
 
 #projects {
@@ -38,69 +43,71 @@ header nav {
 .nav-links li a {
   text-decoration: none;
   color: black;
-  font-size: 22px;
+  font-size: 130%;
   font-weight: normal;
 }
 
 .title {
-  margin-right: 20%;
+  /* margin-right: 40%; */
   padding-top: 5%;
   /* padding-bottom: 25px; */
-  font-size: 60px;
-  font-weight: lighter;
+  font-size: 220%;
+  font-weight: bold;
 }
 
 .head-img {
   width: 100%;
-  height: auto;
+  height: 100%;
   overflow: hidden;
 }
 
 .head-img img {
   width: 100%;
-  height: auto;
+  height: 100%;
   margin: -25% 0 0 0;
 }
 
 #recent-text {
-  margin-right: 50%;
+  /* margin-right: 50%; */
+  text-align: center;
   padding-top: 2%;
   line-height: 200%;
 }
 
-.projects {
+#projects {
   padding-bottom: 5%;
 }
 
-.projects .row {
+#projects .row {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding-top: 2.5%;
-  padding-bottom: 2.5%;
+  /* padding-top: 2.5%; */
+  /* padding-bottom: 2.5%; */
 }
 
-.projects img {
-  width: 39%;
-  margin-left: 2.5%;
-  margin-right: 2.5%;
+#projects img {
+  width: 40%;
+  margin: 2%;
 }
 
-.projects ul {
+#projects ul {
   text-align: center;
 }
 
-.projects li {
+#projects li {
   display: inline;
 }
 
-.projects img:hover {
+#projects img:hover {
   opacity: 0.3;
   transition: 0.4s;
+  box-shadow: 5px 10px 10px #0d0c12;
 }
 
-.projects img:not(:hover) {
+#projects img:not(:hover) {
   transition: 0.4s;
+  box-shadow: 5px 10px 10px #0d0c12;
 }
 
 #footer-text {
@@ -115,7 +122,7 @@ header nav {
   color: #fefefe;
 }
 
-#footer-bottom p {
+#contact p {
   /* margin-right: 50%; */
   /* padding-top: 2%; */
   /* line-height: 10%; */
@@ -138,17 +145,21 @@ footer a:not(:hover) {
   transition: 0.2s;
 }
 
-#footer-bottom a {
+#contact a {
   text-decoration: none;
   color: #202121;
 }
 
-#footer-bottom h1 {
+#contact h1 {
   padding-bottom: 4%;
 }
 
-#footer-bottom {
+#contact {
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+#footer-bottom-right {
+  text-align: right;
 }
