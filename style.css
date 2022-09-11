@@ -169,6 +169,14 @@ footer a:not(:hover) {
   height: 50px;
 }
 
+.contact-button {
+  margin-right: 25px;
+}
+
+.contact-button:last-child {
+  margin-right: 0;
+}
+
 @media (max-width: 850px) {
   #footer-text {
     margin-right: 0%;
