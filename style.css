@@ -162,4 +162,15 @@ footer a:not(:hover) {
 
 #footer-bottom-right {
   text-align: right;
+  /* height: 20px; */
+}
+
+#footer-bottom-right img {
+  height: 50px;
+}
+
+@media (max-width: 850px) {
+  #footer-text {
+    margin-right: 0%;
+  }
 }
