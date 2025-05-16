@@ -1,1 +1,0 @@
-# ariqzuhdi.github.io
